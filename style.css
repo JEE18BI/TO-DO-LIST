@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+  }
+  
+  #all {
+    background-image: url(back.jpg);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+  }
+  
+  #to-do {
+    font-size: larger;
+    color: rgb(213, 220, 230);
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  
+  
+  button {  /* Style all buttons */
+    height: 45px;
+    width: 290px;
+    background-color: rgba(161, 237, 80, 0.804);
+    margin-left: 50px;  /* Center buttons horizontally */
+    margin-right: auto;
+    border-radius: 20px;
+    cursor: pointer;  
+    margin-bottom: 20px;;
+    transition: background-color 0.2s ease-in-out; /* Add smooth transition */
+}
+
+button:hover { /* Hover effect for all buttons */
+  background-color: rgba(161, 237, 80, 0.6); /* Slightly lighten background on hover */
+}
+  
+  #personalp {
+ margin-right: 30px;
+  }
+  
+  
+  
+  #boy, #briefcase, #education, #healthlogo {
+     /* Images within buttons should be inline */
+     float: left;   
+     margin:0; /* Add spacing between image and text */
+  }
+
+  
+  #briefcase, #education, #healthlogo {
+    /* No float needed anymore with inline-block */
+    padding-top: 0;  /* Remove padding-top as images are inline */
+  }
+  
+ #focuskiddo{
+text-align: center;
+text-decoration: underline;
+font-size: larger;
+color:antiquewhite;
+margin-left: 0px;
+margin-right: 50px;
+
+
+
+ }
+ #addtask{
+    height: 40px;
+    width:175px;
+    margin-right: 48px;
+
+ }
+ #newTask {
+    height:20px;
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #192c19;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width:150px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s ease-in-out; /* Add smooth transition */
+  }
+  
+  #newTask:hover {
+    background-color: #E0E0E0; /* Change background color on hover */
+  }
+  
+ #taskList{
+    margin-bottom: 17px;
+    color:rgb(255, 255, 255);
+    font-size:17px;
+    width: max-content;
+    height:10px;
+   
+    
+    
+ }
+
+ .delete-btn {
+    
+    background-color: rgba(161, 237, 80, 0.804);
+    color: black;
+    padding-top:  0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: none;
+    height:18px;
+    width:80px;
+    border-radius: 10px;
+    cursor: pointer;
+    float:right;
+ 
+  
+  }
+  /* Style the checkbox to remove the circle and create a custom appearance */
+input[type="checkbox"] {
+    /* Hide the default checkbox */
+   
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+    float: left;
+    border: 1px solid #ccc; /* Customize border style and color */
+    background-color: #fff; 
+   
+  }
+  
+  /* Style the checkbox when checked */
+ input[type="checkbox"]:checked {
+    /* ... other styles ... */
+    content: "\u2713"; /* Unicode character for checkmark */
+    color: #fff; /* Text color for checkmark */
+    font-size: 16px; /* Adjust font size for checkmark */
+    text-align: center; /* Center the checkmark */
+    line-height: 20px; /* Vertical alignment */
+  }
+  
+  .strikethrough {
+    text-decoration: line-through;
+  }
+  li {
+    white-space: pre-wrap;
+  }
+  #back{
+    height:20px;
+    width:60px;
+    float: left;
+    margin: 0px;
+    margin-left: 3px;;
+
+  }
+  #parent{ 
+    display:flex;
+    margin-left: 105px;
+    flex-direction:column;
+width:50%;
+    justify-content:center;
+    align-items: center;
+
+}
+ 
